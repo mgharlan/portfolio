@@ -12,7 +12,8 @@
 }
 
 body {
-  background: rgb(29, 151, 233);
+  /* background: rgb(29, 151, 233); */
+  background-image: url("img/bg.jpg");
   margin: 0;
   padding: 0;
 }
@@ -41,11 +42,17 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 100;
   margin-top: auto;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  margin-top: 5px;
+}
+
+footer span {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   font-size: 80%;
+  font-weight: 100;
+  background: white;
+  padding: 5px;
 }
 
 #name {
@@ -130,10 +137,31 @@ nav ul li a:hover {
   font-size: 150%;
 }
 
+#title-text {
+  background: rgb(29, 151, 233);
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  color: white;
+}
+
+#img-text {
+  width: 450px;
+  text-align: center;
+  margin-top: 10px;
+}
+
 p {
-  max-width: 20em;
+  display: inline-block;
+  width: 100%;
   text-align: center;
   font-weight: 300;
+  padding: 10px;
+  background: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 img {
@@ -141,7 +169,7 @@ img {
 }
 
 #mason-img {
-  margin-top: 50px;
+  margin-top: 25px;
   object-fit: cover;
   width: 400px;
   height: 400px;
