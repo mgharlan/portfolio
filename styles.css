@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@100;300;500;700&display=swap");
+
+* {
+  font-family: "Oswald", sans-serif;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+  nav {
+    flex-direction: column;
+  }
+}
+
+body {
+  background: rgb(29, 151, 233);
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heavy-font {
+  font-weight: 700;
+}
+
+.nav-background {
+  background: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+  margin-top: auto;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 80%;
+}
+
+#name {
+  font-size: 150%;
+  justify-content: center;
+}
+
+#icons {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+#pages {
+  text-align: left;
+  justify-content: flex-start;
+}
+
+nav ul {
+  flex: 1;
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+  display: inline-flex;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  opacity: 0.7;
+}
+
+.padded {
+  padding-right: 25px;
+}
+
+.active {
+  color: rgb(29, 151, 233);
+}
+
+.fa {
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #000;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.big-text {
+  font-size: 150%;
+}
+
+p {
+  max-width: 20em;
+  text-align: center;
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+}
+
+#mason-img {
+  margin-top: 50px;
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  align-self: center;
+  flex: 0 0 auto;
+}
