@@ -237,6 +237,10 @@ img {
   border-radius: 2px;
 }
 
+.back .single {
+  width: 75px;
+}
+
 .back button:hover {
   border: rgb(122, 202, 255) solid 1px;
   color: rgb(122, 202, 255);
@@ -246,6 +250,7 @@ img {
   color: white;
   margin: 10px;
   margin-top: 0px;
+  margin-bottom: 0px;
   font-family: "pt-sans", sans-serif;
 }
 
