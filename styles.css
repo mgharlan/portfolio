@@ -177,3 +177,23 @@ img {
   align-self: center;
   flex: 0 0 auto;
 }
+
+.projects {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 80vh;
+}
+
+.project-box {
+  width: 500px;
+  height: 500px;
+  background: white;
+  margin-bottom: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  flex: 0 0 auto;
+}
