@@ -197,10 +197,11 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
+  overflow: hidden;
 }
 
 .front {
-  background: url(img/bg.jpg);
+  background: #3b3c3f;
 }
 
 .back {
