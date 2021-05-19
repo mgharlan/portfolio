@@ -66,6 +66,11 @@ footer span {
   cursor: default;
 }
 
+#name li {
+  border-top: black solid 1px;
+  border-bottom: black solid 1px;
+}
+
 #icons {
   text-align: right;
   justify-content: center;
@@ -200,7 +205,7 @@ img {
 
 .back {
   transform: rotateY(-180deg);
-  background: #404146;
+  background: #3b3c3f;
   justify-content: flex-start;
   text-align: left;
 }
@@ -211,7 +216,7 @@ img {
   font-weight: 700;
   text-align: left;
   margin: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 .buttons {
@@ -224,17 +229,19 @@ img {
   border: none;
   text-decoration: none;
   cursor: pointer;
-  background: rgb(29, 151, 233);
-  color: #f9f9fb;
+  background: transparent;
+  border: rgb(29, 151, 233) solid 1px;
+  color: rgb(69, 180, 253);
   border-radius: 2px;
 }
 
 .back button:hover {
-  opacity: 0.7;
+  border: rgb(122, 202, 255) solid 1px;
+  color: rgb(122, 202, 255);
 }
 
 .card-description {
-  color: #f9f9fb;
+  color: white;
   margin: 10px;
   margin-top: 0px;
   font-family: "pt-sans", sans-serif;
