@@ -3,37 +3,72 @@
     <title>Mason Harlan Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <div id="wrapper">
-        <div class="nav-background">
         <nav class="nav-background">
-            <ul id='pages'>
-                <li><a class="active padded" href='./index.html'>HOME</a></li>
-                <li><a class="padded" href='./projects.html'>PROJECTS</a></li>
-                <li><a href='./contact.html'>CONTACT</a></li>
-            </ul>
             <ul id='name' class="heavy-font">
-                <li> MASON&nbsp;HARLAN</li>
+                <li>MASON&nbsp;HARLAN</li>
+            </ul>
+            <ul id='pages'>
+                <li><a class="active margin-r" href='/'>PROJECTS</a></li>
+                <li><a href='/contact/'>CONTACT</a></li>
             </ul>
             <ul id='icons'>
                 <a href="https://www.linkedin.com/in/masongharlan/" target="_blank" class="fa fa-linkedin"></a>
                 <a href="https://github.com/mgharlan" target="_blank" class='fa fa-github'></a>
             </ul>
         </nav>
-        </div>
 
-        <div class="main-content">
-            <img id='mason-img' class='round' src='img/mason.jpg'/>
-            <div id="img-text">
-            <div id='title-text' class="big-text font-heavy title">Software&nbsp;Engineer</div>
-            <p class="big-text">Hi, I'm a Software Engineer and Web Developer. I like to automate the boring stuff and create interactive applications for fun. Programming is my passion and I love working on systems that have an impact!</p>
+        <div class="projects">
+           <div class='project-card'>
+                <div class='card-content'>
+                    <div class='front'>
+                        <div class="card-title">
+                            <div class="card-title-text">
+                                <div class='top-text'>Bird Bot</div>
+                                <div class='bottom-text'>Discord</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='back'>
+                        <div style="width: 100%;">
+                            <h1>About</h1>
+                        </div>
+                        <div class="card-description">
+                            An ornothology bot for discord that servers bird information on command.
+                        </div>
+                        <div class="buttons">
+                            <button class="margin-sm" onclick="window.open('https://google.com', '_blank')">DEMO</button><button>CODE</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='project-card'>
+               <div class='card-content'>
+                    <div class='front'>Front</div>
+                    <div class='back'>Back</div>
+               </div>
+            </div>
+            <div class='project-card'>
+               <div class='card-content'>
+                    <div class='front'>Front</div>
+                    <div class='back'>Back</div>
+               </div>
+            </div>
+            <div class='project-card'>
+               <div class='card-content'>
+                    <div class='front'>Front</div>
+                    <div class='back'>Back</div>
+               </div>
             </div>
         </div>
 
         <footer>
-            <span>harlangmason@gmail.com&nbsp;|&nbsp;1(209)256-6739</span>
+            <span>Created and designed by Mason Harlan</span>
+            <span></span>
+            <span></span>
         </footer>
     </div>
 </body>
