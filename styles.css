@@ -206,7 +206,8 @@ img {
 
 .back {
   transform: rotateY(-180deg);
-  background: #3b3c3f;
+  /* background: #3b3c3f; */
+  background-image: url(img/card-back.svg);
   justify-content: flex-start;
   text-align: left;
 }
@@ -262,11 +263,13 @@ img {
   height: 75px;
   border-radius: 25%;
   padding: 0;
+  opacity: 0.95;
 }
 
 .card-title-text {
   width: 100%;
   margin: auto;
+  opacity: 1;
 }
 
 .top-text {
