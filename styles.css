@@ -200,13 +200,13 @@ img {
 
 .back {
   transform: rotateY(-180deg);
-  background: #333741;
+  background: #404146;
   justify-content: flex-start;
   text-align: left;
 }
 
 .back h1 {
-  color: #de6262;
+  color: rgb(29, 151, 233);
   font-size: 150%;
   font-weight: 700;
   text-align: left;
@@ -224,8 +224,7 @@ img {
   border: none;
   text-decoration: none;
   cursor: pointer;
-  font-weight: 700;
-  background: #de6262;
+  background: rgb(29, 151, 233);
   color: #f9f9fb;
   border-radius: 2px;
 }
