@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
     <title>Mason Harlan Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,8 +18,8 @@
                 <li><a class="active" href='/contact/'>CONTACT</a></li>
             </ul>
             <ul id='icons'>
-                <a href="https://www.linkedin.com/in/masongharlan/" target="_blank" class="fa fa-linkedin"></a>
-                <a href="https://github.com/mgharlan" target="_blank" class='fa fa-github'></a>
+                <li><a href="https://www.linkedin.com/in/masongharlan/" target="_blank" class="fa fa-linkedin"></a><li>
+                <li><a href="https://github.com/mgharlan" target="_blank" class='fa fa-github'></a><li>
             </ul>
         </nav>
         <div class="contact-form">
@@ -26,15 +27,15 @@
             <form method="POST" name='contact-info-form' id="contact-info-form" style="margin-top: 25px;" data-netlify="true">
                 <label for='contact-name'>Name</label>
                 <br>
-                <input name="contact-name"/>
+                <input name="contact-name" id="contact-name"/>
                 <br>
                 <label for='contact-email'>Email</label>
                 <br>
-                <input name='contact-email' type="email"/>
+                <input name='contact-email' id="contact-email" type="email"/>
                 <br>
                 <label for='contact-message'>Message</label>
                 <br>
-                <textarea name='contact-message'></textarea>
+                <textarea name='contact-message' id='contact-message'></textarea>
                 <br>
                 <input type="submit"/>
             </form>
