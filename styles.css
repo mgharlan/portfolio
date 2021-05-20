@@ -8,12 +8,21 @@
 @media only screen and (max-width: 700px) {
   nav {
     flex-direction: column;
+    -webkit-flex-direction: column;
   }
   .projects {
     flex-direction: column;
+    -webkit-flex-direction: column;
   }
   footer {
     flex-direction: column;
+    -webkit-flex-direction: column;
+  }
+  form input {
+    width: 200px !important;
+  }
+  form textarea {
+    width: 200px !important;
   }
 }
 
@@ -27,7 +36,9 @@ body {
 #wrapper {
   min-height: 100%;
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
 }
 
 .heavy-font {
@@ -37,16 +48,21 @@ body {
 nav {
   border-bottom: black solid 1px;
   display: flex;
+  display: -webkit-flex;
   align-items: center;
+  -webkit-align-items: center;
   justify-content: space-between;
+  -webkit-justify-content: space-between;
   margin-left: 25px;
   margin-right: 25px;
 }
 
 footer {
   display: flex;
+  display: -webkit-flex;
   align-items: center;
   justify-content: flex-start;
+  -webkit-justify-content: flex-start;
   margin-top: auto;
   margin-top: 5px;
 }
@@ -54,6 +70,7 @@ footer {
 footer span {
   flex: 1;
   justify-content: center;
+  -webkit-justify-content: center;
   text-align: center;
   font-size: 80%;
   font-weight: 100;
@@ -66,6 +83,7 @@ footer span {
 
 #name {
   justify-content: center;
+  -webkit-justify-content: center;
   cursor: default;
 }
 
@@ -77,20 +95,24 @@ footer span {
 #icons {
   text-align: right;
   justify-content: center;
+  -webkit-justify-content: center;
 }
 
 #pages {
   font-size: 150%;
   text-align: center;
   justify-content: center;
+  -webkit-justify-content: center;
 }
 
 nav ul {
   flex: 1;
+  -webkit-flex: 1;
   margin: 0;
   padding: 10px;
   list-style-type: none;
   display: inline-flex;
+  display: -webkit-inline-flex;
 }
 
 nav ul li {
@@ -153,20 +175,31 @@ img {
 
 .projects {
   flex: 1;
+  -webkit-flex: 1;
   display: flex;
+  display: -webkit-flex;
   align-items: center;
   align-content: flex-start;
+  -webkit-align-content: flex-start;
   justify-content: center;
+  -webkit-justify-content: center;
   flex-direction: row;
+  -webkit-flex-direction: row;
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
 }
 
 .contact-form {
   flex: 1;
+  -webkit-flex: 1;
   display: flex;
+  display: -webkit-flex;
   align-items: center;
+  -webkit-align-items: center;
   justify-content: flex-start;
+  -webkit-justify-content: flex-start;
   flex-direction: column;
+  -webkit-flex-direction: column;
   margin-top: 25px;
 }
 
@@ -178,7 +211,9 @@ img {
   margin-right: 15px;
   margin-left: 15px;
   flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
   perspective: 500px;
+  -webkit-perspective: 500px;
 }
 
 .project-card a {
@@ -188,27 +223,36 @@ img {
 
 .card-content {
   transition: transform 1s;
+  -webkit-transition: transform 1s;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   width: 100%;
   height: 100%;
 }
 
 .project-card:hover .card-content {
   transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
   transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
 }
 
 .front,
 .back {
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   width: 100%;
   height: 100%;
   border-radius: 10px;
   position: absolute;
   display: inline-flex;
+  display: -webkit-inline-flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   justify-content: center;
+  -webkit-justify-content: center;
   align-items: center;
+  -webkit-align-items: center;
   text-align: center;
   overflow: hidden;
 }
@@ -222,6 +266,7 @@ img {
   /* background: #3b3c3f; */
   background-image: url(img/card-back.svg);
   justify-content: flex-start;
+  -webkit-justify-content: flex-start;
   text-align: left;
 }
 
@@ -269,12 +314,15 @@ img {
 
 .contact-form {
   flex: 1;
+  -webkit-flex: 1;
 }
 
 .card-title {
   text-align: center;
   display: inline-flex;
+  display: -webkit-inline-flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   background: white;
   width: 100px;
   margin: auto;
