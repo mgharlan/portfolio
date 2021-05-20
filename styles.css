@@ -200,6 +200,7 @@ img {
 
 .front,
 .back {
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   width: 100%;
   height: 100%;
