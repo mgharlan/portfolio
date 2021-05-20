@@ -23,7 +23,7 @@
         </nav>
         <div class="contact-form">
             <div style="font-weight: 700; font-size: 200%;">CONTACT</div>
-            <form name='contact-info-form' id="contact-info-form" style="margin-top: 25px;" data-netlify="true">
+            <form method="POST" name='contact-info-form' id="contact-info-form" style="margin-top: 25px;" data-netlify="true">
                 <label for='contact-name'>Name</label>
                 <br>
                 <input name="contact-name"/>
@@ -34,7 +34,7 @@
                 <br>
                 <label for='contact-message'>Message</label>
                 <br>
-                <textarea form="contact-form" name='contact-message'></textarea>
+                <textarea name='contact-message'></textarea>
                 <br>
                 <input type="submit"/>
             </form>
