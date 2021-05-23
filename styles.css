@@ -256,6 +256,7 @@ img {
   -webkit-align-items: center;
   text-align: center;
   overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 .front {
