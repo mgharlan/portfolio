@@ -311,8 +311,8 @@ img {
 
 .back {
   transform: rotateY(-180deg);
-  /* background: #3b3c3f; */
-  background-image: url(img/card-back.svg);
+  background: #3b3c3f;
+  /* background-image: url(img/card-back.svg); */
   justify-content: space-evenly;
   -webkit-justify-content: space-evenly;
   text-align: left;
